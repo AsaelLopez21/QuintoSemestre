@@ -1,0 +1,13 @@
+
+F1 -> NADA
+F2 -> BIOS UEFI
+F3 -> NDA
+F4 -> NADA
+F5 ->NADA
+F6 ->NADA
+F7 ->NADA
+F8 ->NADA
+F9 -> suport assistan/diagnóstico sistema
+F10 -> NADA
+F11 -> NADA
+F12 ->GRUB OPCIONES DE ARRANQUE

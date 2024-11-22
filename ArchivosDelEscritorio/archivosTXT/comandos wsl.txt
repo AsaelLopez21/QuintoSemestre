@@ -1,0 +1,19 @@
+chmod +777 prog1.c
+chmod +777 prog2.c
+
+gcc --wall -o prog1 prog1.c
+gcc --wall -o prog2 prog2.c
+gcc -Wall -o forkprog forkprog.c
+
+cd /mnt/c/Users/Alumonos/Desktop
+
+./prog1 5 4 7 &
+
+__________________________________
+ubicacion_fisica VARCHAR(40) NOT NULL,
+    fecha_adquisicion DATETIME NOT NULL,
+    condicion VARCHAR(20),
+
+CREATE USER 'root2'@'192.168.31.69' IDENTIFIED BY 'contraseña';
+GRANT ALL PRIVILEGES ON *.* TO 'root2'@'192.168.31.69';
+

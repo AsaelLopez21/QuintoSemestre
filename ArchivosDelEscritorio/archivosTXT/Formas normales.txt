@@ -1,0 +1,17 @@
+-Primera forma normal: Un atributo solo debe tomar un valor
+(Los datos deben ser atomicos, no existen metadatos)
+
+-Segunda forma normal (dependencia plena): Todos los atributos dependen del atributo primario, incluyendo el atributo foráneo, 
+no se cumple cuando algún atributo no principal, depende funcionalmente de algún subconjunto de la clave.
+(que todas sus claves dependan del atributo primario)
+
+-Tercera forma normal: (Dependencia transitiva), No existe ningún atributo no principal que dependa transitivamente de alguna clave de R
+Atributos no principal que dependen de atributo no principal, que a su vez depende del atributo principal
+(no debe existir dependencia transitiva
+
+Clave candidata, clave con las características para ser llave primaria pero no lo es
+
+-Cuarta forma normal (FNBC)
+
+Tiene dos llaves candidatas y los atributos son dependientes de estas llaves entonces no se encuentra em FNBD, 
+se parte la tabla y en cada una queda una llave candidata que pasa a ser una llave primaria

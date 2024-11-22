@@ -1,0 +1,8 @@
+git remote add origin https://github.com/AsaelLopez21/QuintoSemestre.git
+git config --global user.name "AsaelLopez21"
+git config --global user.email "asaellopezinfo@gmail.com"
+
+git add .
+git commit -m "Tarea contador"
+git push origin master
+

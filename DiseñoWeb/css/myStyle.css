@@ -1,0 +1,46 @@
+h1,h2,h3,h4,h5,h6{
+    color: rgb(255, 255, 255);
+}
+
+/* Formas de aplicar estilos */
+
+/* 
+-Mediante etiquetas 
+-Mediante un id de las etiquetas
+-Mediante atributo class
+*/
+
+/* #sidenav{
+    /* background-color: indigo; 
+    color: #ffffff;
+} */
+
+.systemColor{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:yellowgreen;
+}
+
+/*____________________________________________________________________*/
+
+.sidebar{
+    min-height: 100vh;
+    background-color: #43afcf;
+    width: 190px;
+    font-family: 'Times New Roman', Times, serif,;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 0, 0);
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    color: rgb(0, 255, 183);
+}
+
+.content{
+    padding: 20px;
+}
+

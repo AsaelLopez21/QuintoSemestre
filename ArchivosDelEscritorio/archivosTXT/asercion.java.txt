@@ -1,0 +1,19 @@
+public class asercion {
+
+    public static void main(String[] args) {
+        char operacion = 'X';
+        switch (operacion) {
+            case '+':
+                System.out.println("Suma");
+            break;
+            case '-':
+                System.out.println("Resta");
+            break;
+            
+            default:
+                assert false : "Operación no reconocida: " + operacion;
+            break;
+        }
+    }
+    
+}

@@ -1,0 +1,28 @@
+#peliculas-template{
+    justify-items: center;
+    background-color: rgb(180, 255, 255);
+}
+h1{
+    color: red;
+}
+#minombre{
+    color:tomato;
+}
+
+#cuerpo{
+    background-color: #0c1a3a;
+    color: white;
+}
+
+#barra-nav{
+    background-color:white;
+}
+
+#card{
+    background-color: #534c69;
+    color: white;
+}
+
+#listaPeliculas{
+    background-color: #0c1a3a;
+}
